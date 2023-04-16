@@ -1,0 +1,219 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+body{
+    margin: 0;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar CSS Starts */
+.navbar ul {
+    display:flex;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    font-weight: bold;
+    padding:5px 10px;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@media (max-width:576px)
+{
+        .d-link {
+            display:none;
+        }
+}
+/* Navbar CSS ends */
+
+/* Hero CSS Starts */
+
+.hero 
+{
+    background-image: url(/Image/amazing-nails.jpeg);
+    height: 73vh;
+    object-fit:cover;
+}
+
+.hero-text {
+    width: 80%;
+    text-align: center;
+    padding-top: 22vh;
+    margin-left: 10vw;
+}
+
+.hero-text h1{
+    font-size: 50px;
+    color:rgb(94, 3, 51);
+    letter-spacing: 3px;
+}
+
+.hero-text p{
+    font-size: 25px;
+    color:rgb(94, 3, 51);
+}
+
+
+@media (max-width:576px)
+{     
+    .hero-text{
+        padding-top: 18vh;
+    }
+    
+    .hero-text h1{
+        font-size: 25px;
+
+    }
+     
+    .hero-text p{
+        font-size: 15px;
+    }
+    
+}
+
+.btn{
+padding: 10px 32px;
+border-radius: 16px;
+font-size: 20px;
+background-color: orangered;
+color: white;
+border: none;
+cursor: pointer;
+border:none;
+}
+
+.btn:hover{
+background-color: black;
+color: orangered;
+border: 1px solid orangered;
+transition: 0.5s ease-in-out;
+}
+/* Hero CSS Ends */
+
+/* About CSS Starts */
+.about-head
+{
+    text-align:center;
+}
+.about-h1
+{
+    font-size:30px;
+}
+.about-p
+{
+    font-size: 20px;
+}
+.about-card{
+    width: 280px;
+    padding:5px 10px;
+    border:1px solid rgb(200, 196, 196);
+    border-radius: 12px;
+    color: rgb(94, 3, 51);
+}
+.about-card h3{
+    margin: 10px 0px;
+}
+.about-card h4{
+    margin: 12px 0px;
+}
+.about-card p{
+    margin: 8px 0px;
+}
+.about-us{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+/* About CSS Ends */
+
+/* Gallery CSS Starts */
+.gallery-img{
+    width:300px;
+    height: 300px;
+    margin: 2px;
+
+}
+.gallery-img img{
+    width: 100%;
+    height:100%;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* Gallery CSS Ends */
+
+/* Subscription CSS Starts */
+.sub-card{
+    width:300px;
+    color:rgb(94, 3, 51);
+    border:1px solid darkmagenta;
+    border-radius:12px;
+    padding:5px 10px;
+}
+.text-center{
+    text-align: center;
+}
+.price{
+    color:deeppink;
+    font-size: 30px;
+    font-weight: lighter;
+    margin:10px 0px;
+}
+.text-basic{
+    margin:12px 0px;
+}
+.text-month{
+    margin:8px 0px;
+}
+.get-plan{
+    padding:10px 32px;
+    width:100%;
+    font-size: 18px;
+    background-color: darkmagenta;
+    color:white;
+    cursor: pointer;
+    border-radius: 16px;
+ 
+    border: none;
+}
+.subscription{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+/* Subscription CSS Ends */
+
+
+/* Footer CSS Starts */
+.footerbar ul {
+    display:flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    width:90%;
+    justify-content:center;
+}
+
+.footerbar ul li {
+    font-weight: bold;
+    padding:5px 10px;
+}
+
+.footer{
+    margin-top: 20px;
+    background-color: rgb(250, 91, 168);
+}
+
+.footer p {
+    text-align: center;
+    color:rgb(94, 3, 51);
+    padding: 16px 0px;
+    margin: 16px 0px 0px 0px;
+}
+/* Footer CSS Ends */
